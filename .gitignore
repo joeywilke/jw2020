@@ -35,3 +35,23 @@ Icon
 # License
 # ---------------
 /site/config/.license
+
+# Config files
+# ---------------
+/site/config/config.php
+/site/config/configdev.joeywilke.com.php
+
+
+
+# Keeping it clean - https://www.git-tower.com/learn/build-your-own-blog/development/project-setup#start
+# ---------------
+# General
+.DS_Store
+
+# Sass
+.sass-cache/
+
+# Kirby
+/assets/avatars
+/thumbs/*
+/site/cache/*
